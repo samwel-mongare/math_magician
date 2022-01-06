@@ -1,3 +1,40 @@
+*, *::before, * ::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  background-color: bisque;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.calc-grid {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: minmax(7rem, auto) repeat(5 6rem);
+  height: 15rem;
+  border: 1px solid gray;
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1/-1;
+  background-color: gray;
+  text-align: end;
+  padding-right: 0.3rem;
+  padding-top: 1rem;
+}
+
+.math-sign {
+  background-color: orange;
+}
+
+button {
+   border: 1px solid lightgrey;
 }
