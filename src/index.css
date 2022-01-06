@@ -1,4 +1,6 @@
-*, *::before, * ::after {
+*,
+*::before,
+* ::after {
   box-sizing: border-box;
 }
 
@@ -14,7 +16,6 @@ body {
   display: grid;
   margin-top: 2rem;
   grid-template-columns: repeat(4, 6rem);
-  grid-template-rows: minmax(7rem, auto) repeat(5 6rem);
   height: 15rem;
   border: 1px solid gray;
 }
@@ -36,5 +37,5 @@ body {
 }
 
 button {
-   border: 1px solid lightgrey;
+  border: 1px solid lightgrey;
 }
