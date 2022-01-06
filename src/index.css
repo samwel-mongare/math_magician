@@ -36,7 +36,11 @@ body {
   background-color: orange;
 }
 
-button {
+.calc-grid > button {
   border: 1px solid lightgrey;
   cursor: pointer;
+}
+
+.calc-grid > button:hover {
+  background-color: wheat;
 }
