@@ -13,6 +13,7 @@ body {
   justify-content: space-between;
   background-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
   font-family: "josefin sans", sans-serif;
+  overflow: hidden;
 }
 
 .calc-grid {
@@ -65,12 +66,12 @@ body {
   align-self: center;
   width: 80vw;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
   align-content: center;
+  flex-direction: column;
 }
 
 .quoteContent p {
-  padding-top: 25vh;
   text-align: center;
   font-size: 2rem;
   margin-left: 10vw;

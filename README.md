@@ -5,9 +5,11 @@
 > - Make simple calculations.
 > - Read a random math-related quote.
 
-## Project screenshot
+## Project screenshots
 
 ![screenshot](./app_screenshot.png)
+
+![screenshot](./app_screenshot2.png)
 
 Additional description about the project and its features.
 
