@@ -8,7 +8,6 @@ import Navbar from './components/Navbar';
 function App() {
   const fonty = {
     fontSize: '2rem',
-    color: 'red'
   }
   
   return (

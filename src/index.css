@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Josefin+Sans:600');
+
 *,
 *::before,
 * ::after {
@@ -6,10 +8,11 @@
 
 body {
   margin: 0;
-  background-color: bisque;
   display: flex;
   align-content: center;
   justify-content: space-between;
+  background-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  font-family: "josefin sans", sans-serif;
 }
 
 .calc-grid {
@@ -51,4 +54,42 @@ body {
   justify-content: space-between;
   width: 95vw;
   margin: 1rem;
+}
+
+.active {
+  color: red;
+}
+
+.quoteContent {
+  display: flex;
+  align-self: center;
+  width: 80vw;
+  justify-content: center;
+  height: 100vh;
+  align-content: center;
+}
+
+.quoteContent p {
+  padding-top: 25vh;
+  text-align: center;
+  font-size: 2rem;
+  margin-left: 10vw;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  justify-content: center;
+  margin-left: 5rem;
+  font-size: 1rem;
+
+}
+
+.mainContent h2 {
+  text-align: center;
+}
+
+span {
+  font-weight: 300;
 }

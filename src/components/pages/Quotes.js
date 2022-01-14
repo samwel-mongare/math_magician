@@ -15,9 +15,8 @@ export default class Quotes extends Component {
   
     render() {
         return (
-        <div className="quote__content">
-      <p>{this.state.quotes.quote}</p>
-      <p>{this.state.quotes.author}</p>
+        <div className="quoteContent">
+      <p>{this.state.quotes.quote} ~ <span><i>{this.state.quotes.author}</i></span></p>
     </div>
         )
     }
