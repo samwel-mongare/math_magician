@@ -9,14 +9,14 @@ body {
   background-color: bisque;
   display: flex;
   align-content: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .calc-grid {
   display: grid;
   margin-top: 2rem;
-  grid-template-columns: repeat(4, 6rem);
-  height: 15rem;
+  grid-template-columns: repeat(4, 9rem);
+  height: 70vh;
   border: 1px solid gray;
 }
 
@@ -30,6 +30,7 @@ body {
   text-align: end;
   padding-right: 0.3rem;
   padding-top: 1rem;
+  font-size: 3rem;
 }
 
 .math-sign {
@@ -43,4 +44,11 @@ body {
 
 .calc-grid > button:hover {
   background-color: wheat;
+}
+
+.letty {
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+  margin: 1rem;
 }
