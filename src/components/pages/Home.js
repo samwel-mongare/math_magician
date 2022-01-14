@@ -1,4 +1,3 @@
-/* eslint-disable */
 const Home = () => {
   const aboutData = [
     {
@@ -10,14 +9,13 @@ const Home = () => {
     },
   ];
 
-
   return (
     <div className="mainContent">
       <h2>{aboutData[0].title}</h2>
       <p>{aboutData[0].definition}</p>
       <p>{aboutData[0].description}</p>
     </div>
-);
-  };
+  );
+};
 
 export default Home;

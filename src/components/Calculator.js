@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useState } from 'react';
 import '../index.css';
 import calculate from '../logic/calculate';
