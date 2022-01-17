@@ -19,6 +19,8 @@ Additional description about the project and its features.
 
 [Live App Link (Heroku)](https://math-magician254.herokuapp.com/)
 
+[Live App Link (Heroku)](https://math-magicians254.netlify.app/)
+
 ## Built With
 
 - HTML
