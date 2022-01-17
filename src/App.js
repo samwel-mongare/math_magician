@@ -25,7 +25,7 @@ function App() {
     )}
         />
         <Route
-          path="/Home"
+          path="/"
           element={
             <Home />
     }
