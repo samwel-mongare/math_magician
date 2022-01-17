@@ -17,6 +17,8 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://mosams.github.io/math_magician/)
 
+[Live App Link (Heroku)](https://math-magician254.herokuapp.com/)
+
 ## Built With
 
 - HTML
